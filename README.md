@@ -64,5 +64,23 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pyLoad is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://pyload.net/
+pyLoad is an open-source, lightweight download manager written in Python. It provides a web UI for managing downloads, supports many hosters and plugins, runs headlessly on servers, NAS devices, or desktops, and offers a documented API for integration and automation.
+
+**Areas:** Download Manager · Open Source · Python · Automation · File Transfer
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pyload.net/)
+- [Documentation](https://github.com/pyload/pyload/wiki)
+- [Getting started](https://docs.github.com/en/github-cli/github-cli/quickstart)
+- [Support](https://github.com/pyload/pyload/issues)
+- [Changelog](https://github.com/pyload/pyload/releases)
+- [GitHub](https://github.com/pyload)
+
+**APIs profiled:** 1
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/pyload/](https://apis.io/providers/pyload/).
