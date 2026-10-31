@@ -68,6 +68,60 @@ pyLoad is an open-source, lightweight download manager written in Python. It pro
 
 **Areas:** Download Manager · Open Source · Python · Automation · File Transfer
 
+## pyLoad on APIs.io
+
+Everything profiled for pyLoad is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pyload/](https://apis.io/providers/pyload/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [pyLoad pyLoad REST API](https://apis.io/apis/pyload/pyload-pyload-rest-api/) — The pyLoad REST API from pyLoad — 84 operation(s) for pyload rest.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Pyload Agentic Access](https://apis.io/agentic-access/pyload/pyload-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountInfo](https://apis.io/schemas/pyload/pyload-account-info/)
+- [DownloadInfo](https://apis.io/schemas/pyload/pyload-download-info/)
+- [FileData](https://apis.io/schemas/pyload/pyload-file-data/)
+- [PackageData](https://apis.io/schemas/pyload/pyload-package-data/)
+- [ServerStatus](https://apis.io/schemas/pyload/pyload-server-status/)
+- [UserData](https://apis.io/schemas/pyload/pyload-user-data/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pyload Context](https://apis.io/jsonld/pyload/pyload-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Pyload Openapi Generator Overlay](https://apis.io/overlays/pyload/pyload-openapi-generator-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [pyLoad API Rules](https://apis.io/rules/pyload/pyload-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pyload Authentication](https://apis.io/security/pyload/pyload-authentication/)
+- [Pyload Domain Security](https://apis.io/security/pyload/pyload-domain-security/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -79,8 +133,57 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Changelog](https://github.com/pyload/pyload/releases)
 - [GitHub](https://github.com/pyload)
 
-**APIs profiled:** 1
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/pyload/](https://apis.io/providers/pyload/).
+**Kin Score 43.5** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 57.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 27.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pyload/](https://apis.io/providers/pyload/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for pyLoad: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pyload/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
